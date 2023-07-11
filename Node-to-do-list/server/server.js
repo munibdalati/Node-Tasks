@@ -39,3 +39,6 @@ app.post("/api/create", (req, res) => {
 app.listen(5000, () =>{
     console.log("Server is running on port 5000")
 })
+
+//to start this server write on the terminal "npm run dev"
+//then open new terminal to run the React App by writing "npm start"
