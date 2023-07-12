@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "firstName": "John",
+        "lastName": "Mark ",
+        "email": "john.doe@example.com",
+        "password": "password123",
+        "phoneNumber": "(123) 456-7890"
+    },
+    {
+        "id": 2,
+        "firstName": "Jane",
+        "lastName": "this is an ",
+        "email": "jane.doe@example.com",
+        "password": "password123",
+        "phoneNumber": "(555) 678-9012"
+    },
+    {
+        "id": 3,
+        "firstname": "Abdullah",
+        "lastname": "shehab",
+        "email": "munib@gmail.com",
+        "password": "123456",
+        "phoneNumber": "123456666"
+    },
+    {
+        "id": 4,
+        "firstname": "Mohammad",
+        "lastname": "Awad",
+        "email": "munib@gmail.com",
+        "password": "123456",
+        "phoneNumber": "123456666"
+    },
+    {
+        "id": 5,
+        "firstName": "Munib",
+        "lastName": "Dalati ",
+        "email": "munib@gmail.com",
+        "password": "123456",
+        "phoneNumber": "123456666"
+    },
+    {
+        "id": 7,
+        "firstname": "Saeed",
+        "lastname": "Fawaz",
+        "email": "munib@gmail.com",
+        "password": "123456",
+        "phoneNumber": "123456666"
+    },
+    {
+        "id": 8,
+        "firstname": "basel",
+        "lastname": "Qaraa",
+        "email": "munib@gmail.com",
+        "password": "123456",
+        "phoneNumber": "123456666"
+    }
+]
