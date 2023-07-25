@@ -6,10 +6,27 @@ const bodyParser = require("body-parser");
 app.use(bodyParser.json());
 let users = ["userOne", "userTwo", "userThree", "userFour", "userFive"];
 
+// Write the updated users array back to the users.json file
+function updateJSONVsCode(res) {
+  
+  // Sort the users array based on the id property
+  users.sort((a, b) => a.id - b.id);
 
+  fs.writeFile("./users.json", JSON.stringify(users), (err) => {
+    if (err) {
+      console.error("Error writing to users.json:", err);
+      return res.status(500).send("Error writing to users.json");
+    }
+    res.send({ users });
+  });
+}
+
+//display all the users
 app.get("/api", (req, res) =>{
     res.json({"users": users})
 })
+
+
 
 app.post("/api/create", (req, res) => {
     const { value } = req.body;
@@ -36,7 +53,7 @@ app.post("/api/create", (req, res) => {
   });
   
 
-app.listen(5000, () =>{
+app.listen(5001, () =>{
     console.log("Server is running on port 5000")
 })
 

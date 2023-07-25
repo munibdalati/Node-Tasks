@@ -2,7 +2,7 @@
     {
         "id": 1,
         "firstName": "John",
-        "lastName": "Mark ",
+        "lastName": "frejat ",
         "email": "john.doe@example.com",
         "password": "password123",
         "phoneNumber": "(123) 456-7890"
